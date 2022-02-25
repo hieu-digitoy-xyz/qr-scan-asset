@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.MarcinOrlowski:fonty:3.1.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/99cbe06843382591747321cc29a07661/transformed/jetified-fonty-3.1.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/99cbe06843382591747321cc29a07661/transformed/jetified-fonty-3.1.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/99cbe06843382591747321cc29a07661/transformed/jetified-fonty-3.1.5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.MarcinOrlowski/fonty/3.1.5/e6458f06fe7cc8b45a812ce829ec507efccf159b/fonty-3.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

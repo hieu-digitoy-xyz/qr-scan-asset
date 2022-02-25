@@ -1,0 +1,136 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tool.scanqr"
+4    android:versionCode="4"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:4:5-65
+11-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:4:22-62
+12    <uses-permission android:name="com.android.vending.BILLING" />
+12-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:6:5-67
+12-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:6:22-64
+13
+14    <uses-feature
+14-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:8:5-10:35
+15        android:name="android.hardware.camera"
+15-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:9:9-47
+16        android:required="true" />
+16-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:10:9-32
+17
+18    <application
+18-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:12:5-38:19
+19        android:name="com.tool.scanqr.MainApplication"
+19-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:13:9-55
+20        android:allowBackup="true"
+20-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:14:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.7.0] /Users/hiuz/.gradle/caches/transforms-3/3287ed4cf8c32398866b0c1d2a55edb7/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+22        android:extractNativeLibs="false"
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:15:9-43
+24        android:label="@string/app_name"
+24-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:16:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:17:9-54
+26        android:supportsRtl="true"
+26-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:18:9-35
+27        android:theme="@style/AppTheme.NoActionBar" >
+27-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:19:9-52
+28        <activity
+28-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:20:9-28:20
+29            android:name="com.tool.scanqr.ui.FirstActivity"
+29-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:21:13-60
+30            android:exported="true" >
+30-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:22:13-36
+31            <intent-filter>
+31-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:23:13-27:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:24:17-69
+32-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:24:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:26:17-77
+34-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:26:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity
+37-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:29:9-31:40
+38            android:name="com.tool.scanqr.ui.SubsActivity"
+38-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:30:13-59
+39            android:exported="false" />
+39-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:31:13-37
+40        <activity
+40-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:32:9-36:20
+41            android:name="com.tool.scanqr.ui.ScanQRcodeActivity"
+41-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:33:13-65
+42            android:exported="false" >
+42-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:34:13-37
+43        </activity>
+44        <activity android:name="com.tool.scanqr.barcode.BarcodeCaptureActivity" />
+44-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:37:9-83
+44-->/Users/hiuz/Desktop/barcode-master/QRcodeReaderAndroid/app/src/main/AndroidManifest.xml:37:19-80
+45
+46        <meta-data
+46-->[com.android.billingclient:billing:4.0.0] /Users/hiuz/.gradle/caches/transforms-3/a9cb0b29576dd5d5874d031352ab221c/transformed/jetified-billing-4.0.0/AndroidManifest.xml:13:9-15:37
+47            android:name="com.google.android.play.billingclient.version"
+47-->[com.android.billingclient:billing:4.0.0] /Users/hiuz/.gradle/caches/transforms-3/a9cb0b29576dd5d5874d031352ab221c/transformed/jetified-billing-4.0.0/AndroidManifest.xml:14:13-73
+48            android:value="4.0.0" />
+48-->[com.android.billingclient:billing:4.0.0] /Users/hiuz/.gradle/caches/transforms-3/a9cb0b29576dd5d5874d031352ab221c/transformed/jetified-billing-4.0.0/AndroidManifest.xml:15:13-34
+49
+50        <activity
+50-->[com.android.billingclient:billing:4.0.0] /Users/hiuz/.gradle/caches/transforms-3/a9cb0b29576dd5d5874d031352ab221c/transformed/jetified-billing-4.0.0/AndroidManifest.xml:17:9-21:75
+51            android:name="com.android.billingclient.api.ProxyBillingActivity"
+51-->[com.android.billingclient:billing:4.0.0] /Users/hiuz/.gradle/caches/transforms-3/a9cb0b29576dd5d5874d031352ab221c/transformed/jetified-billing-4.0.0/AndroidManifest.xml:18:13-78
+52            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+52-->[com.android.billingclient:billing:4.0.0] /Users/hiuz/.gradle/caches/transforms-3/a9cb0b29576dd5d5874d031352ab221c/transformed/jetified-billing-4.0.0/AndroidManifest.xml:19:13-96
+53            android:exported="false"
+53-->[com.android.billingclient:billing:4.0.0] /Users/hiuz/.gradle/caches/transforms-3/a9cb0b29576dd5d5874d031352ab221c/transformed/jetified-billing-4.0.0/AndroidManifest.xml:20:13-37
+54            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+54-->[com.android.billingclient:billing:4.0.0] /Users/hiuz/.gradle/caches/transforms-3/a9cb0b29576dd5d5874d031352ab221c/transformed/jetified-billing-4.0.0/AndroidManifest.xml:21:13-72
+55        <activity
+55-->[com.google.android.gms:play-services-base:17.4.0] /Users/hiuz/.gradle/caches/transforms-3/d7f390657c8bae747331facb6627901e/transformed/jetified-play-services-base-17.4.0/AndroidManifest.xml:23:9-26:75
+56            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+56-->[com.google.android.gms:play-services-base:17.4.0] /Users/hiuz/.gradle/caches/transforms-3/d7f390657c8bae747331facb6627901e/transformed/jetified-play-services-base-17.4.0/AndroidManifest.xml:24:13-79
+57            android:exported="false"
+57-->[com.google.android.gms:play-services-base:17.4.0] /Users/hiuz/.gradle/caches/transforms-3/d7f390657c8bae747331facb6627901e/transformed/jetified-play-services-base-17.4.0/AndroidManifest.xml:25:13-37
+58            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+58-->[com.google.android.gms:play-services-base:17.4.0] /Users/hiuz/.gradle/caches/transforms-3/d7f390657c8bae747331facb6627901e/transformed/jetified-play-services-base-17.4.0/AndroidManifest.xml:26:13-72
+59
+60        <meta-data
+60-->[com.google.android.gms:play-services-basement:17.4.0] /Users/hiuz/.gradle/caches/transforms-3/28e791a18729a8918d4741e250a04981/transformed/jetified-play-services-basement-17.4.0/AndroidManifest.xml:23:9-25:69
+61            android:name="com.google.android.gms.version"
+61-->[com.google.android.gms:play-services-basement:17.4.0] /Users/hiuz/.gradle/caches/transforms-3/28e791a18729a8918d4741e250a04981/transformed/jetified-play-services-basement-17.4.0/AndroidManifest.xml:24:13-58
+62            android:value="@integer/google_play_services_version" />
+62-->[com.google.android.gms:play-services-basement:17.4.0] /Users/hiuz/.gradle/caches/transforms-3/28e791a18729a8918d4741e250a04981/transformed/jetified-play-services-basement-17.4.0/AndroidManifest.xml:25:13-66
+63
+64        <provider
+64-->[androidx.emoji2:emoji2:1.0.0] /Users/hiuz/.gradle/caches/transforms-3/8856134bcd7b8b49a046b976ebc002ff/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+65            android:name="androidx.startup.InitializationProvider"
+65-->[androidx.emoji2:emoji2:1.0.0] /Users/hiuz/.gradle/caches/transforms-3/8856134bcd7b8b49a046b976ebc002ff/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+66            android:authorities="com.tool.scanqr.androidx-startup"
+66-->[androidx.emoji2:emoji2:1.0.0] /Users/hiuz/.gradle/caches/transforms-3/8856134bcd7b8b49a046b976ebc002ff/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+67            android:exported="false" >
+67-->[androidx.emoji2:emoji2:1.0.0] /Users/hiuz/.gradle/caches/transforms-3/8856134bcd7b8b49a046b976ebc002ff/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+68            <meta-data
+68-->[androidx.emoji2:emoji2:1.0.0] /Users/hiuz/.gradle/caches/transforms-3/8856134bcd7b8b49a046b976ebc002ff/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+69                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+69-->[androidx.emoji2:emoji2:1.0.0] /Users/hiuz/.gradle/caches/transforms-3/8856134bcd7b8b49a046b976ebc002ff/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+70                android:value="androidx.startup" />
+70-->[androidx.emoji2:emoji2:1.0.0] /Users/hiuz/.gradle/caches/transforms-3/8856134bcd7b8b49a046b976ebc002ff/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+71            <meta-data
+71-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hiuz/.gradle/caches/transforms-3/c3dc026c86fcb2cf2e53d156d603f6f7/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+72                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+72-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hiuz/.gradle/caches/transforms-3/c3dc026c86fcb2cf2e53d156d603f6f7/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+73                android:value="androidx.startup" />
+73-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hiuz/.gradle/caches/transforms-3/c3dc026c86fcb2cf2e53d156d603f6f7/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+74        </provider>
+75    </application>
+76
+77</manifest>

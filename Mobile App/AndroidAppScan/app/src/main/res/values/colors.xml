@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorGray">#687083</color>
+    <color name="colorGray50">#ECEAE8</color>
+    <color name="orange">#EB9F6D</color>
+    <color name="white">#ffffff</color>
+    <color name="qr_code_reader_square">#ffffff</color>
+    <color name="qr_code_border">@color/colorGray</color>
+    <color name="bg30white">#80FFFFFF</color>
+</resources>
