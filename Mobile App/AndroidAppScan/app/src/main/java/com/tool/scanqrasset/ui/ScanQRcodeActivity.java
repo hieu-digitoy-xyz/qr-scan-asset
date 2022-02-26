@@ -11,6 +11,7 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
 import androidx.appcompat.widget.Toolbar;
 import androidx.cardview.widget.CardView;
 
@@ -26,10 +27,10 @@ import com.tool.scanqrasset.utils.StoreDataHelper;
 import java.net.URL;
 
 public class ScanQRcodeActivity extends AppCompatActivity {
-    TextView lblResult;
+    SearchView searchView;
     TextView tvTimeLefts;
     Button btnBuy;
-    ImageView imgCopy, imgOpenLink, imgShare, imgBack, imgPremium;
+    ImageView imgCopy, imgOpenLink, imgShare, imgBack, imgPremium, imgScan;
     CardView bgScan;
     int BARCODE_READER_REQUEST_CODE = 1;
 
@@ -66,7 +67,7 @@ public class ScanQRcodeActivity extends AppCompatActivity {
         setContentView(R.layout.screen_scan_qr_code);
 
 
-        lblResult = findViewById(R.id.lblResult);
+        searchView = findViewById(R.id.searchView);
         tvTimeLefts = findViewById(R.id.tvTimeLefts);
         btnBuy = findViewById(R.id.btnBuy);
         imgCopy = findViewById(R.id.imgCopy);
@@ -75,12 +76,13 @@ public class ScanQRcodeActivity extends AppCompatActivity {
         bgScan = findViewById(R.id.btnScan);
         imgBack = findViewById(R.id.btnBack);
         imgPremium = findViewById(R.id.imgPremium);
+        imgScan = findViewById(R.id.imgScan);
 
 //        getSupportActionBar().setDisplayHomeAsUpEnabled(false);
 
 
-        btnBuy.setOnClickListener(v -> {
-            Intent intent = new Intent(this, SubsActivity.class);
+        imgScan.setOnClickListener(v -> {
+            Intent intent = new Intent(this, BarcodeCaptureActivity.class);
             ScanQRcodeActivity.this.startActivity(intent);
         });
 
@@ -96,9 +98,9 @@ public class ScanQRcodeActivity extends AppCompatActivity {
             shareText();
         });
 
-        bgScan.setOnClickListener(v -> {
-            scanQr();
-        });
+//        bgScan.setOnClickListener(v -> {
+//            scanQr();
+//        });
 
         imgBack.setOnClickListener(v -> {
             finish();
@@ -120,6 +122,21 @@ public class ScanQRcodeActivity extends AppCompatActivity {
 //            startActivity(intent);
         });
 
+        // search view
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                Toast.makeText(getBaseContext(), query, Toast.LENGTH_SHORT).show();
+                return true;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                return false;
+            }
+        });
+
+
         Fonty.setFonts(this);
 
 //        setTitle("QR Scan");
@@ -128,7 +145,7 @@ public class ScanQRcodeActivity extends AppCompatActivity {
             if (getIntent() != null) {
                 Barcode barcode = getIntent().getParcelableExtra("Barcode");
                 if (barcode != null) {
-                    lblResult.setText(barcode.displayValue);
+                    searchView.setQuery(barcode.displayValue, true);
                 }
             }
         } catch (Exception ex) {
@@ -164,7 +181,7 @@ public class ScanQRcodeActivity extends AppCompatActivity {
                     if (data != null) {
                         Barcode barcode = data.getParcelableExtra("Barcode");
                         if (barcode != null) {
-                            lblResult.setText(barcode.displayValue);
+                            searchView.setQuery(barcode.displayValue, true);
                         }
                     }
                 } catch (Exception ex) {
@@ -189,8 +206,8 @@ public class ScanQRcodeActivity extends AppCompatActivity {
     }
 
     private void copyText() {
-        if (lblResult.getText() != null) {
-            if (ClipboardUtils.get(MainApplication.getInstance()).copy(lblResult.getText().toString())) {
+        if (searchView.getQuery() != null) {
+            if (ClipboardUtils.get(MainApplication.getInstance()).copy(searchView.getQuery().toString())) {
                 Toast.makeText(this, "Copy Successfully", Toast.LENGTH_SHORT).show();
             } else {
                 Toast.makeText(this, "Copy Failed", Toast.LENGTH_SHORT).show();
@@ -199,18 +216,18 @@ public class ScanQRcodeActivity extends AppCompatActivity {
     }
 
     private void shareText() {
-        if (lblResult.getText() != null) {
+        if (searchView.getQuery() != null) {
             Intent shareIntent = new Intent(Intent.ACTION_SEND);
             shareIntent.setType("text/plain");
-            String content = lblResult.getText().toString();
+            String content = searchView.getQuery().toString();
             shareIntent.putExtra(Intent.EXTRA_TEXT, content);
             startActivity(Intent.createChooser(shareIntent, "Share via").addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
         }
     }
 
     private void openLink() {
-        if (lblResult.getText() != null) {
-            String text = lblResult.getText().toString();
+        if (searchView.getQuery() != null) {
+            String text = searchView.getQuery().toString();
 
             try {
                 URL u = new URL(text);

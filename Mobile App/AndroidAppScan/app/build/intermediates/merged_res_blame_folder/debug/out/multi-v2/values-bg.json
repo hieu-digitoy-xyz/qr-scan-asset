@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml",
+            "outputFile": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml",
             "map": [
                 {
-                    "source": "/Users/hiuz/.gradle/caches/transforms-3/c7a50edaf346f3ed4a8dc0653fdb2965/transformed/jetified-play-services-basement-17.4.0/res/values-bg/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "196",
-                        "endOffsets": "443"
-                    },
-                    "to": {
-                        "startLines": "45",
-                        "startColumns": "4",
-                        "startOffsets": "4627",
-                        "endColumns": "196",
-                        "endOffsets": "4819"
-                    }
-                },
-                {
-                    "source": "/Users/hiuz/.gradle/caches/transforms-3/e8cb92886eeb564286e0f82758d420aa/transformed/core-1.7.0/res/values-bg/values-bg.xml",
+                    "source": "/Users/hieu-imac/.gradle/caches/transforms-3/e8cb92886eeb564286e0f82758d420aa/transformed/core-1.7.0/res/values-bg/values-bg.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/hiuz/.gradle/caches/transforms-3/7f4eb1a2de64ba4f672cb2cc7ab2fc68/transformed/jetified-play-services-base-17.4.0/res/values-bg/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,352,549,682,791,1017,1150,1295,1429,1657,1767,1973,2109,2325,2517,2613,2698",
-                        "endColumns": "106,196,132,108,225,132,144,133,227,109,205,135,215,191,95,84,97",
-                        "endOffsets": "351,548,681,790,1016,1149,1294,1428,1656,1766,1972,2108,2324,2516,2612,2697,2795"
-                    },
-                    "to": {
-                        "startLines": "37,38,39,40,41,42,43,44,46,47,48,49,50,51,52,53,54",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3419,3530,3727,3864,3977,4203,4340,4489,4824,5052,5166,5372,5512,5728,5924,6024,6113",
-                        "endColumns": "110,196,136,112,225,136,148,137,227,113,205,139,215,195,99,88,101",
-                        "endOffsets": "3525,3722,3859,3972,4198,4335,4484,4622,5047,5161,5367,5507,5723,5919,6019,6108,6210"
-                    }
-                },
-                {
-                    "source": "/Users/hiuz/.gradle/caches/transforms-3/9e6c17ca317609773e7bbbdc46919b02/transformed/appcompat-1.4.1/res/values-bg/values-bg.xml",
+                    "source": "/Users/hieu-imac/.gradle/caches/transforms-3/9e6c17ca317609773e7bbbdc46919b02/transformed/appcompat-1.4.1/res/values-bg/values-bg.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -72,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/hiuz/.gradle/caches/transforms-3/45e69ab36b75f3d3da0103d4f664495f/transformed/preference-1.2.0/res/values-bg/values-bg.xml",
+                    "source": "/Users/hieu-imac/.gradle/caches/transforms-3/45e69ab36b75f3d3da0103d4f664495f/transformed/preference-1.2.0/res/values-bg/values-bg.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -89,7 +55,41 @@
                     }
                 },
                 {
-                    "source": "/Users/hiuz/.gradle/caches/transforms-3/12f0c9beba7b8dc3f2a990f9d3d4752f/transformed/material-1.5.0/res/values-bg/values-bg.xml",
+                    "source": "/Users/hieu-imac/.gradle/caches/transforms-3/c7a50edaf346f3ed4a8dc0653fdb2965/transformed/jetified-play-services-basement-17.4.0/res/values-bg/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "196",
+                        "endOffsets": "443"
+                    },
+                    "to": {
+                        "startLines": "45",
+                        "startColumns": "4",
+                        "startOffsets": "4627",
+                        "endColumns": "196",
+                        "endOffsets": "4819"
+                    }
+                },
+                {
+                    "source": "/Users/hieu-imac/.gradle/caches/transforms-3/7f4eb1a2de64ba4f672cb2cc7ab2fc68/transformed/jetified-play-services-base-17.4.0/res/values-bg/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,352,549,682,791,1017,1150,1295,1429,1657,1767,1973,2109,2325,2517,2613,2698",
+                        "endColumns": "106,196,132,108,225,132,144,133,227,109,205,135,215,191,95,84,97",
+                        "endOffsets": "351,548,681,790,1016,1149,1294,1428,1656,1766,1972,2108,2324,2516,2612,2697,2795"
+                    },
+                    "to": {
+                        "startLines": "37,38,39,40,41,42,43,44,46,47,48,49,50,51,52,53,54",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3419,3530,3727,3864,3977,4203,4340,4489,4824,5052,5166,5372,5512,5728,5924,6024,6113",
+                        "endColumns": "110,196,136,112,225,136,148,137,227,113,205,139,215,195,99,88,101",
+                        "endOffsets": "3525,3722,3859,3972,4198,4335,4484,4622,5047,5161,5367,5507,5723,5919,6019,6108,6210"
+                    }
+                },
+                {
+                    "source": "/Users/hieu-imac/.gradle/caches/transforms-3/12f0c9beba7b8dc3f2a990f9d3d4752f/transformed/material-1.5.0/res/values-bg/values-bg.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
+            "outputFile": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "/Users/hiuz/.gradle/caches/transforms-3/9e6c17ca317609773e7bbbdc46919b02/transformed/appcompat-1.4.1/res/values-v22/values-v22.xml",
+                    "source": "/Users/hieu-imac/.gradle/caches/transforms-3/9e6c17ca317609773e7bbbdc46919b02/transformed/appcompat-1.4.1/res/values-v22/values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

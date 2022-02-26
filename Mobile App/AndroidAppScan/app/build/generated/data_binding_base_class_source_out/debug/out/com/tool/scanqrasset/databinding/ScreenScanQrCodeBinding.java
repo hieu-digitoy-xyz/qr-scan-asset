@@ -5,13 +5,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatCheckBox;
+import androidx.appcompat.widget.SearchView;
 import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.core.widget.NestedScrollView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.tool.scanqrasset.R;
@@ -21,7 +23,7 @@ import java.lang.String;
 
 public final class ScreenScanQrCodeBinding implements ViewBinding {
   @NonNull
-  private final ConstraintLayout rootView;
+  private final NestedScrollView rootView;
 
   @NonNull
   public final ConstraintLayout bgBar;
@@ -33,7 +35,13 @@ public final class ScreenScanQrCodeBinding implements ViewBinding {
   public final Button btnBuy;
 
   @NonNull
-  public final CardView btnScan;
+  public final CardView btnSearch;
+
+  @NonNull
+  public final AppCompatCheckBox cbImport;
+
+  @NonNull
+  public final AppCompatCheckBox cbLocal;
 
   @NonNull
   public final ImageView imgCopy;
@@ -45,35 +53,129 @@ public final class ScreenScanQrCodeBinding implements ViewBinding {
   public final ImageView imgPremium;
 
   @NonNull
+  public final ImageView imgScan;
+
+  @NonNull
   public final ImageView imgShare;
 
   @NonNull
-  public final EditText lblResult;
+  public final TextView lbAlp;
+
+  @NonNull
+  public final TextView lbBrand;
+
+  @NonNull
+  public final TextView lbDescription;
+
+  @NonNull
+  public final TextView lbNote;
+
+  @NonNull
+  public final TextView lbPartId;
+
+  @NonNull
+  public final TextView lbSearch;
+
+  @NonNull
+  public final TextView lbStockAmount;
+
+  @NonNull
+  public final TextView lbStorageBin;
+
+  @NonNull
+  public final TextView lbSupplier;
+
+  @NonNull
+  public final TextView lbUseFor;
+
+  @NonNull
+  public final SearchView searchView;
+
+  @NonNull
+  public final TextView tvAlp;
+
+  @NonNull
+  public final TextView tvBrand;
+
+  @NonNull
+  public final TextView tvDescription;
+
+  @NonNull
+  public final TextView tvNote;
+
+  @NonNull
+  public final TextView tvPartId;
+
+  @NonNull
+  public final TextView tvSearch;
+
+  @NonNull
+  public final TextView tvStockAmount;
+
+  @NonNull
+  public final TextView tvStorageBin;
+
+  @NonNull
+  public final TextView tvSupplier;
 
   @NonNull
   public final TextView tvTimeLefts;
 
-  private ScreenScanQrCodeBinding(@NonNull ConstraintLayout rootView,
+  @NonNull
+  public final TextView tvUseFor;
+
+  private ScreenScanQrCodeBinding(@NonNull NestedScrollView rootView,
       @NonNull ConstraintLayout bgBar, @NonNull ImageView btnBack, @NonNull Button btnBuy,
-      @NonNull CardView btnScan, @NonNull ImageView imgCopy, @NonNull ImageView imgOpen,
-      @NonNull ImageView imgPremium, @NonNull ImageView imgShare, @NonNull EditText lblResult,
-      @NonNull TextView tvTimeLefts) {
+      @NonNull CardView btnSearch, @NonNull AppCompatCheckBox cbImport,
+      @NonNull AppCompatCheckBox cbLocal, @NonNull ImageView imgCopy, @NonNull ImageView imgOpen,
+      @NonNull ImageView imgPremium, @NonNull ImageView imgScan, @NonNull ImageView imgShare,
+      @NonNull TextView lbAlp, @NonNull TextView lbBrand, @NonNull TextView lbDescription,
+      @NonNull TextView lbNote, @NonNull TextView lbPartId, @NonNull TextView lbSearch,
+      @NonNull TextView lbStockAmount, @NonNull TextView lbStorageBin, @NonNull TextView lbSupplier,
+      @NonNull TextView lbUseFor, @NonNull SearchView searchView, @NonNull TextView tvAlp,
+      @NonNull TextView tvBrand, @NonNull TextView tvDescription, @NonNull TextView tvNote,
+      @NonNull TextView tvPartId, @NonNull TextView tvSearch, @NonNull TextView tvStockAmount,
+      @NonNull TextView tvStorageBin, @NonNull TextView tvSupplier, @NonNull TextView tvTimeLefts,
+      @NonNull TextView tvUseFor) {
     this.rootView = rootView;
     this.bgBar = bgBar;
     this.btnBack = btnBack;
     this.btnBuy = btnBuy;
-    this.btnScan = btnScan;
+    this.btnSearch = btnSearch;
+    this.cbImport = cbImport;
+    this.cbLocal = cbLocal;
     this.imgCopy = imgCopy;
     this.imgOpen = imgOpen;
     this.imgPremium = imgPremium;
+    this.imgScan = imgScan;
     this.imgShare = imgShare;
-    this.lblResult = lblResult;
+    this.lbAlp = lbAlp;
+    this.lbBrand = lbBrand;
+    this.lbDescription = lbDescription;
+    this.lbNote = lbNote;
+    this.lbPartId = lbPartId;
+    this.lbSearch = lbSearch;
+    this.lbStockAmount = lbStockAmount;
+    this.lbStorageBin = lbStorageBin;
+    this.lbSupplier = lbSupplier;
+    this.lbUseFor = lbUseFor;
+    this.searchView = searchView;
+    this.tvAlp = tvAlp;
+    this.tvBrand = tvBrand;
+    this.tvDescription = tvDescription;
+    this.tvNote = tvNote;
+    this.tvPartId = tvPartId;
+    this.tvSearch = tvSearch;
+    this.tvStockAmount = tvStockAmount;
+    this.tvStorageBin = tvStorageBin;
+    this.tvSupplier = tvSupplier;
     this.tvTimeLefts = tvTimeLefts;
+    this.tvUseFor = tvUseFor;
   }
 
   @Override
   @NonNull
-  public ConstraintLayout getRoot() {
+  public NestedScrollView getRoot() {
     return rootView;
   }
 
@@ -116,9 +218,21 @@ public final class ScreenScanQrCodeBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.btnScan;
-      CardView btnScan = ViewBindings.findChildViewById(rootView, id);
-      if (btnScan == null) {
+      id = R.id.btnSearch;
+      CardView btnSearch = ViewBindings.findChildViewById(rootView, id);
+      if (btnSearch == null) {
+        break missingId;
+      }
+
+      id = R.id.cbImport;
+      AppCompatCheckBox cbImport = ViewBindings.findChildViewById(rootView, id);
+      if (cbImport == null) {
+        break missingId;
+      }
+
+      id = R.id.cbLocal;
+      AppCompatCheckBox cbLocal = ViewBindings.findChildViewById(rootView, id);
+      if (cbLocal == null) {
         break missingId;
       }
 
@@ -140,15 +254,135 @@ public final class ScreenScanQrCodeBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imgScan;
+      ImageView imgScan = ViewBindings.findChildViewById(rootView, id);
+      if (imgScan == null) {
+        break missingId;
+      }
+
       id = R.id.imgShare;
       ImageView imgShare = ViewBindings.findChildViewById(rootView, id);
       if (imgShare == null) {
         break missingId;
       }
 
-      id = R.id.lblResult;
-      EditText lblResult = ViewBindings.findChildViewById(rootView, id);
-      if (lblResult == null) {
+      id = R.id.lbAlp;
+      TextView lbAlp = ViewBindings.findChildViewById(rootView, id);
+      if (lbAlp == null) {
+        break missingId;
+      }
+
+      id = R.id.lbBrand;
+      TextView lbBrand = ViewBindings.findChildViewById(rootView, id);
+      if (lbBrand == null) {
+        break missingId;
+      }
+
+      id = R.id.lbDescription;
+      TextView lbDescription = ViewBindings.findChildViewById(rootView, id);
+      if (lbDescription == null) {
+        break missingId;
+      }
+
+      id = R.id.lbNote;
+      TextView lbNote = ViewBindings.findChildViewById(rootView, id);
+      if (lbNote == null) {
+        break missingId;
+      }
+
+      id = R.id.lbPartId;
+      TextView lbPartId = ViewBindings.findChildViewById(rootView, id);
+      if (lbPartId == null) {
+        break missingId;
+      }
+
+      id = R.id.lbSearch;
+      TextView lbSearch = ViewBindings.findChildViewById(rootView, id);
+      if (lbSearch == null) {
+        break missingId;
+      }
+
+      id = R.id.lbStockAmount;
+      TextView lbStockAmount = ViewBindings.findChildViewById(rootView, id);
+      if (lbStockAmount == null) {
+        break missingId;
+      }
+
+      id = R.id.lbStorageBin;
+      TextView lbStorageBin = ViewBindings.findChildViewById(rootView, id);
+      if (lbStorageBin == null) {
+        break missingId;
+      }
+
+      id = R.id.lbSupplier;
+      TextView lbSupplier = ViewBindings.findChildViewById(rootView, id);
+      if (lbSupplier == null) {
+        break missingId;
+      }
+
+      id = R.id.lbUseFor;
+      TextView lbUseFor = ViewBindings.findChildViewById(rootView, id);
+      if (lbUseFor == null) {
+        break missingId;
+      }
+
+      id = R.id.searchView;
+      SearchView searchView = ViewBindings.findChildViewById(rootView, id);
+      if (searchView == null) {
+        break missingId;
+      }
+
+      id = R.id.tvAlp;
+      TextView tvAlp = ViewBindings.findChildViewById(rootView, id);
+      if (tvAlp == null) {
+        break missingId;
+      }
+
+      id = R.id.tvBrand;
+      TextView tvBrand = ViewBindings.findChildViewById(rootView, id);
+      if (tvBrand == null) {
+        break missingId;
+      }
+
+      id = R.id.tvDescription;
+      TextView tvDescription = ViewBindings.findChildViewById(rootView, id);
+      if (tvDescription == null) {
+        break missingId;
+      }
+
+      id = R.id.tvNote;
+      TextView tvNote = ViewBindings.findChildViewById(rootView, id);
+      if (tvNote == null) {
+        break missingId;
+      }
+
+      id = R.id.tvPartId;
+      TextView tvPartId = ViewBindings.findChildViewById(rootView, id);
+      if (tvPartId == null) {
+        break missingId;
+      }
+
+      id = R.id.tvSearch;
+      TextView tvSearch = ViewBindings.findChildViewById(rootView, id);
+      if (tvSearch == null) {
+        break missingId;
+      }
+
+      id = R.id.tvStockAmount;
+      TextView tvStockAmount = ViewBindings.findChildViewById(rootView, id);
+      if (tvStockAmount == null) {
+        break missingId;
+      }
+
+      id = R.id.tvStorageBin;
+      TextView tvStorageBin = ViewBindings.findChildViewById(rootView, id);
+      if (tvStorageBin == null) {
+        break missingId;
+      }
+
+      id = R.id.tvSupplier;
+      TextView tvSupplier = ViewBindings.findChildViewById(rootView, id);
+      if (tvSupplier == null) {
         break missingId;
       }
 
@@ -158,8 +392,17 @@ public final class ScreenScanQrCodeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ScreenScanQrCodeBinding((ConstraintLayout) rootView, bgBar, btnBack, btnBuy,
-          btnScan, imgCopy, imgOpen, imgPremium, imgShare, lblResult, tvTimeLefts);
+      id = R.id.tvUseFor;
+      TextView tvUseFor = ViewBindings.findChildViewById(rootView, id);
+      if (tvUseFor == null) {
+        break missingId;
+      }
+
+      return new ScreenScanQrCodeBinding((NestedScrollView) rootView, bgBar, btnBack, btnBuy,
+          btnSearch, cbImport, cbLocal, imgCopy, imgOpen, imgPremium, imgScan, imgShare, lbAlp,
+          lbBrand, lbDescription, lbNote, lbPartId, lbSearch, lbStockAmount, lbStorageBin,
+          lbSupplier, lbUseFor, searchView, tvAlp, tvBrand, tvDescription, tvNote, tvPartId,
+          tvSearch, tvStockAmount, tvStorageBin, tvSupplier, tvTimeLefts, tvUseFor);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
