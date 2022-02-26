@@ -3,11 +3,13 @@ package com.tool.scanqrasset.ui;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,12 +23,16 @@ import com.marcinorlowski.fonty.Fonty;
 import com.tool.scanqrasset.MainApplication;
 import com.tool.scanqrasset.R;
 import com.tool.scanqrasset.barcode.BarcodeCaptureActivity;
+import com.tool.scanqrasset.databinding.ScreenScanQrCodeBinding;
+import com.tool.scanqrasset.inf.FetchApiAction;
+import com.tool.scanqrasset.model.Asset;
 import com.tool.scanqrasset.utils.ClipboardUtils;
+import com.tool.scanqrasset.utils.FetchApiHelper;
 import com.tool.scanqrasset.utils.StoreDataHelper;
 
 import java.net.URL;
 
-public class ScanQRcodeActivity extends AppCompatActivity {
+public class ScanQRcodeActivity extends AppCompatActivity implements FetchApiAction {
     SearchView searchView;
     TextView tvTimeLefts;
     Button btnBuy;
@@ -34,6 +40,7 @@ public class ScanQRcodeActivity extends AppCompatActivity {
     CardView bgScan;
     int BARCODE_READER_REQUEST_CODE = 1;
 
+    private ScreenScanQrCodeBinding binding;
     ////////////////////////////////////////////////////////////////////////////////////////////////
 
     private Toolbar mActivityActionBarToolbar;
@@ -64,7 +71,9 @@ public class ScanQRcodeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.screen_scan_qr_code);
+        binding = ScreenScanQrCodeBinding.inflate(getLayoutInflater());
+        View view = binding.getRoot();
+        setContentView(view);
 
 
         searchView = findViewById(R.id.searchView);
@@ -126,7 +135,9 @@ public class ScanQRcodeActivity extends AppCompatActivity {
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
-                Toast.makeText(getBaseContext(), query, Toast.LENGTH_SHORT).show();
+//                Toast.makeText(getBaseContext(), query, Toast.LENGTH_SHORT).show();
+
+                searchAssetById(query);
                 return true;
             }
 
@@ -151,6 +162,10 @@ public class ScanQRcodeActivity extends AppCompatActivity {
         } catch (Exception ex) {
             Toast.makeText(this, ex.getMessage(), Toast.LENGTH_LONG).show();
         }
+    }
+
+    private void searchAssetById(String id) {
+        FetchApiHelper.getInstance().fetchAssetsApi(id, this);
     }
 
     @Override
@@ -240,5 +255,24 @@ public class ScanQRcodeActivity extends AppCompatActivity {
             }
 
         }
+    }
+
+    @Override
+    public void doAction(@NonNull Object value) {
+        Asset asset = (Asset) value;
+
+        binding.tvPartId.setText(asset.getPartId());
+        binding.tvDescription.setText(asset.getDescription());
+        binding.tvUseFor.setText(asset.getUseFor());
+        binding.tvStorageBin.setText(asset.getStorageBin());
+        binding.tvStockAmount.setText(asset.getStockAmount());
+        binding.tvSearch.setText(asset.getSearch());
+        binding.tvBrand.setText(asset.getBrand());
+        binding.cbLocal.setChecked(asset.getLocal());
+        binding.cbImport.setChecked(asset.getImport());
+        binding.tvNote.setText(asset.getNote());
+        binding.tvAlp.setText(asset.getAlp());
+        binding.tvSupplier.setText(asset.getSupplier());
+
     }
 }

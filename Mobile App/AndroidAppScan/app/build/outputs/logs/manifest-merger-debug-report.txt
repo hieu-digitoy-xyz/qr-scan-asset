@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:2:1-40:12
+ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:2:1-41:12
 MERGED from [androidx.databinding:viewbinding:7.1.2] /Users/hieu-imac/.gradle/caches/transforms-3/d5a74741c87cd857c30ed63b1b62c7a3/transformed/jetified-viewbinding-7.1.2/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.5.0] /Users/hieu-imac/.gradle/caches/transforms-3/12f0c9beba7b8dc3f2a990f9d3d4752f/transformed/material-1.5.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/hieu-imac/.gradle/caches/transforms-3/ac1a455841f9f08ff0df47068369ccec/transformed/constraintlayout-2.1.3/AndroidManifest.xml:2:1-11:12
@@ -70,20 +70,20 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/8ab0041306a4d5cf19425d017431d567/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/40f97c328c5e34f1fb737d8d6a522bb6/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/hieu-imac/.gradle/caches/transforms-3/bbbffae6c11067b7ef07ff67040c06bf/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:2:1-41:12
 	package
 		INJECTED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:2:1-40:12
+		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:2:1-41:12
 		INJECTED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:2:1-40:12
+		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:2:1-41:12
 		INJECTED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml
-		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:2:1-40:12
+		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:2:1-41:12
 		INJECTED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:2:11-69
@@ -104,7 +104,7 @@ ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/And
 	android:name
 		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:9:9-47
 application
-ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:12:5-38:19
+ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:12:5-39:19
 MERGED from [com.google.android.material:material:1.5.0] /Users/hieu-imac/.gradle/caches/transforms-3/12f0c9beba7b8dc3f2a990f9d3d4752f/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.5.0] /Users/hieu-imac/.gradle/caches/transforms-3/12f0c9beba7b8dc3f2a990f9d3d4752f/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/hieu-imac/.gradle/caches/transforms-3/ac1a455841f9f08ff0df47068369ccec/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
@@ -150,41 +150,43 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/hieu-imac/.gradle/ca
 	android:allowBackup
 		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:19:9-52
+		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:20:9-52
+	android:networkSecurityConfig
+		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:19:9-69
 	android:name
 		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:13:9-60
 activity#com.tool.scanqrasset.ui.FirstActivity
-ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:20:9-24:20
+ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:21:9-25:20
 	android:exported
-		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:22:13-36
+		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:23:13-36
 	android:name
-		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:21:13-65
+		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:22:13-65
 activity#com.tool.scanqrasset.ui.SubsActivity
-ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:25:9-27:40
+ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:26:9-28:40
 	android:exported
-		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:27:13-37
+		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:26:13-64
+		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:27:13-64
 activity#com.tool.scanqrasset.ui.ScanQRcodeActivity
-ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:28:9-36:20
+ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:29:9-37:20
 	android:exported
-		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:30:13-36
+		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:31:13-36
 	android:name
-		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:29:13-70
+		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:30:13-70
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:31:13-35:29
+ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:32:13-36:29
 action#android.intent.action.MAIN
-ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:32:17-69
+ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:33:17-69
 	android:name
-		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:32:25-66
+		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:33:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:34:17-77
+ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:35:17-77
 	android:name
-		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:34:27-74
+		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:35:27-74
 activity#com.tool.scanqrasset.barcode.BarcodeCaptureActivity
-ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:37:9-88
+ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:38:9-88
 	android:name
-		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:37:19-85
+		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:38:19-85
 uses-sdk
 INJECTED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml
