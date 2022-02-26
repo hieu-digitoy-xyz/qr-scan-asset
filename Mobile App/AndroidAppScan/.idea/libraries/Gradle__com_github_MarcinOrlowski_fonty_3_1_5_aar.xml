@@ -4,6 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/99cbe06843382591747321cc29a07661/transformed/jetified-fonty-3.1.5/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/99cbe06843382591747321cc29a07661/transformed/jetified-fonty-3.1.5/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/99cbe06843382591747321cc29a07661/transformed/jetified-fonty-3.1.5/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/78436f789338855bc77c778bd02039c0/transformed/jetified-fonty-3.1.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/78436f789338855bc77c778bd02039c0/transformed/jetified-fonty-3.1.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/78436f789338855bc77c778bd02039c0/transformed/jetified-fonty-3.1.5/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

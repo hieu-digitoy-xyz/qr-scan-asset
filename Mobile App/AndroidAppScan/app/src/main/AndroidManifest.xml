@@ -10,7 +10,7 @@
         android:required="true" />
 
     <application
-        android:name="com.tool.scanqr.MainApplication"
+        android:name="com.tool.scanqrasset.MainApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -18,7 +18,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
         <activity
-            android:name="com.tool.scanqr.ui.FirstActivity"
+            android:name="com.tool.scanqrasset.ui.FirstActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,14 +27,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.tool.scanqr.ui.SubsActivity"
+            android:name="com.tool.scanqrasset.ui.SubsActivity"
             android:exported="false" />
         <activity
-            android:name="com.tool.scanqr.ui.ScanQRcodeActivity"
+            android:name="com.tool.scanqrasset.ui.ScanQRcodeActivity"
             android:exported="false">
 
         </activity>
-        <activity android:name="com.tool.scanqr.barcode.BarcodeCaptureActivity" />
+        <activity android:name="com.tool.scanqrasset.barcode.BarcodeCaptureActivity" />
     </application>
 
 </manifest>

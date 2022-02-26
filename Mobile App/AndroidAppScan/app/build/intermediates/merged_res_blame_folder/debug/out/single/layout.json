@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/barcode_capture.xml",
+        "source": "/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/res/layout/barcode_capture.xml"
+    },
+    {
+        "merged": "/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_first.xml",
+        "source": "/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/res/layout/activity_first.xml"
+    },
+    {
+        "merged": "/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_subs.xml",
+        "source": "/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/res/layout/activity_subs.xml"
+    },
+    {
+        "merged": "/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/screen_scan_qr_code.xml",
+        "source": "/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/res/layout/screen_scan_qr_code.xml"
+    }
+]
