@@ -46,34 +46,34 @@
 29        android:theme="@style/AppTheme.NoActionBar" >
 29-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:19:9-52
 30        <activity
-30-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:20:9-28:20
+30-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:20:9-24:20
 31            android:name="com.tool.scanqrasset.ui.FirstActivity"
 31-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:21:13-65
 32            android:exported="true" >
 32-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:22:13-36
-33            <intent-filter>
-33-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:23:13-27:29
-34                <action android:name="android.intent.action.MAIN" />
-34-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:24:17-69
-34-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:24:25-66
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:26:17-77
-36-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:26:27-74
-37            </intent-filter>
-38        </activity>
-39        <activity
-39-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:29:9-31:40
-40            android:name="com.tool.scanqrasset.ui.SubsActivity"
-40-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:30:13-64
-41            android:exported="false" />
-41-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:31:13-37
-42        <activity
-42-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:32:9-36:20
-43            android:name="com.tool.scanqrasset.ui.ScanQRcodeActivity"
-43-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:33:13-70
-44            android:exported="false" >
-44-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:34:13-37
+33        </activity>
+34        <activity
+34-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:25:9-27:40
+35            android:name="com.tool.scanqrasset.ui.SubsActivity"
+35-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:26:13-64
+36            android:exported="false" />
+36-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:27:13-37
+37        <activity
+37-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:28:9-36:20
+38            android:name="com.tool.scanqrasset.ui.ScanQRcodeActivity"
+38-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:29:13-70
+39            android:exported="true" >
+39-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:30:13-36
+40            <intent-filter>
+40-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:31:13-35:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:32:17-69
+41-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:32:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:34:17-77
+43-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:34:27-74
+44            </intent-filter>
 45        </activity>
 46        <activity android:name="com.tool.scanqrasset.barcode.BarcodeCaptureActivity" />
 46-->/Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:37:9-88

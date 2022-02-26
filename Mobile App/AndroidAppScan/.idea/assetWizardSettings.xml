@@ -90,8 +90,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="$PROJECT_DIR$/../../544587.png" />
-                                                <entry key="scalingPercent" value="102" />
+                                                <entry key="imagePath" value="$USER_HOME$/Downloads/iconnew.png" />
+                                                <entry key="scalingPercent" value="67" />
                                                 <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
@@ -120,6 +120,12 @@
                                           </PersistentState>
                                         </value>
                                       </entry>
+                                    </map>
+                                  </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="backgroundAssetType" value="COLOR" />
+                                      <entry key="backgroundColor" value="ffffff" />
                                     </map>
                                   </option>
                                 </PersistentState>

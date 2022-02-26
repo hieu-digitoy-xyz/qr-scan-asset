@@ -20,6 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="20dp"
+            android:visibility="invisible"
             android:src="@drawable/ic_baseline_arrow_back"
 
             app:layout_constraintStart_toStartOf="parent"
@@ -28,9 +29,9 @@
         <TextView
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_marginStart="10dp"
-            android:gravity="center_vertical"
-            android:text="Scanned Result"
+            android:layout_marginStart="0dp"
+            android:gravity="center"
+            android:text="Asset Information"
             android:textColor="@color/colorGray"
             android:textSize="20sp"
             android:textStyle="bold"
@@ -45,6 +46,7 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:padding="15dp"
+            android:visibility="invisible"
             android:src="@drawable/ic_premium"
 
             app:layout_constraintBottom_toBottomOf="@id/btnBack"
@@ -54,7 +56,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-    <TextView
+    <EditText
         android:id="@+id/lblResult"
         android:layout_width="0dp"
         android:layout_height="wrap_content"

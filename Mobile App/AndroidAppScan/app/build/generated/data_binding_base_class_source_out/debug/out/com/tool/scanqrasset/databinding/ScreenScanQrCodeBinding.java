@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -47,7 +48,7 @@ public final class ScreenScanQrCodeBinding implements ViewBinding {
   public final ImageView imgShare;
 
   @NonNull
-  public final TextView lblResult;
+  public final EditText lblResult;
 
   @NonNull
   public final TextView tvTimeLefts;
@@ -55,7 +56,7 @@ public final class ScreenScanQrCodeBinding implements ViewBinding {
   private ScreenScanQrCodeBinding(@NonNull ConstraintLayout rootView,
       @NonNull ConstraintLayout bgBar, @NonNull ImageView btnBack, @NonNull Button btnBuy,
       @NonNull CardView btnScan, @NonNull ImageView imgCopy, @NonNull ImageView imgOpen,
-      @NonNull ImageView imgPremium, @NonNull ImageView imgShare, @NonNull TextView lblResult,
+      @NonNull ImageView imgPremium, @NonNull ImageView imgShare, @NonNull EditText lblResult,
       @NonNull TextView tvTimeLefts) {
     this.rootView = rootView;
     this.bgBar = bgBar;
@@ -146,7 +147,7 @@ public final class ScreenScanQrCodeBinding implements ViewBinding {
       }
 
       id = R.id.lblResult;
-      TextView lblResult = ViewBindings.findChildViewById(rootView, id);
+      EditText lblResult = ViewBindings.findChildViewById(rootView, id);
       if (lblResult == null) {
         break missingId;
       }

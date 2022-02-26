@@ -154,33 +154,33 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/hiuz/.gradle/caches/
 	android:name
 		ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:13:9-60
 activity#com.tool.scanqrasset.ui.FirstActivity
-ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:20:9-28:20
+ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:20:9-24:20
 	android:exported
 		ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:22:13-36
 	android:name
 		ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:21:13-65
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:23:13-27:29
-action#android.intent.action.MAIN
-ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:24:17-69
-	android:name
-		ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:24:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:26:17-77
-	android:name
-		ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:26:27-74
 activity#com.tool.scanqrasset.ui.SubsActivity
-ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:29:9-31:40
+ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:25:9-27:40
 	android:exported
-		ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:31:13-37
+		ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:30:13-64
+		ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:26:13-64
 activity#com.tool.scanqrasset.ui.ScanQRcodeActivity
-ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:32:9-36:20
+ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:28:9-36:20
 	android:exported
-		ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:34:13-37
+		ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:33:13-70
+		ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:29:13-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:31:13-35:29
+action#android.intent.action.MAIN
+ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:34:27-74
 activity#com.tool.scanqrasset.barcode.BarcodeCaptureActivity
 ADDED from /Users/hiuz/Documents/GitHub/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:37:9-88
 	android:name

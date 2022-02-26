@@ -20,19 +20,19 @@
         <activity
             android:name="com.tool.scanqrasset.ui.FirstActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.tool.scanqrasset.ui.SubsActivity"
             android:exported="false" />
         <activity
             android:name="com.tool.scanqrasset.ui.ScanQRcodeActivity"
-            android:exported="false">
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name="com.tool.scanqrasset.barcode.BarcodeCaptureActivity" />
     </application>
