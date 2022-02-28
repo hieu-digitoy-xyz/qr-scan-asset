@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/hieu-mac/.dotnet/store/|arch|/|tfm|",
+      "/Users/hieu-mac/.nuget/packages"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{C246B3EA-579B-4AF7-AFE9-6A714A732118}|Default">
+  <MonoDevelop.Ide.ItemProperties.Translate__Cache__API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Asset__API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <Breakpoint file="/Users/hieu-imac/Google Drive/Project/Translate Cache API/Utilities/MailHelper.cs" relfile="Utilities/MailHelper.cs" line="57" column="1" />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Translate_Cache_API.csproj">
+    <Files>
+      <File FileName="Controller/DataTranslateController.cs" Line="146" Column="21" />
+      <File FileName="Models/DataTranslate.cs" />
+      <File FileName="Startup.cs" />
+      <File FileName="appsettings.json" />
+      <File FileName="Database/TranslateDBContext.cs" />
+      <File FileName="Translate_API.csproj" Line="36" Column="45" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Translate_Cache_API" expanded="True">
+            <Node name="Translate_Cache_API" expanded="True" selected="True">
+              <Node name="Controller" expanded="True" />
+              <Node name="Database" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="ModelClient" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Utilities" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
