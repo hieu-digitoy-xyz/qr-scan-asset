@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "tdN3aYsKGn6TQyN1BoMncEvHik2SxYS7IfBVm9DHramxE9/TqEHLTNbzAXyYdeQQJBNrc0GH6WyEYSbvZAvH/w==",
+  "dgSpecHash": "Ph5W52WORJeyeK/uOomVCbfED2fn3PJWKeZkziep8HEZaU03SOfaXONN7+9tFzq9l990tPqol9HGUHCgn4e7+A==",
   "success": true,
   "projectFilePath": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Server/API/Asset_API.csproj",
   "expectedPackageFiles": [
+    "/Users/hieu-imac/.nuget/packages/exceldatareader/3.6.0/exceldatareader.3.6.0.nupkg.sha512",
+    "/Users/hieu-imac/.nuget/packages/exceldatareader.dataset/3.6.0/exceldatareader.dataset.3.6.0.nupkg.sha512",
     "/Users/hieu-imac/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/hieu-imac/.nuget/packages/mailkit/3.1.1/mailkit.3.1.1.nupkg.sha512",
     "/Users/hieu-imac/.nuget/packages/messagepack/2.1.152/messagepack.2.1.152.nupkg.sha512",
@@ -203,7 +205,7 @@
     "/Users/hieu-imac/.nuget/packages/system.security.permissions/4.7.0/system.security.permissions.4.7.0.nupkg.sha512",
     "/Users/hieu-imac/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512",
     "/Users/hieu-imac/.nuget/packages/system.text.encoding/4.3.0/system.text.encoding.4.3.0.nupkg.sha512",
-    "/Users/hieu-imac/.nuget/packages/system.text.encoding.codepages/4.7.0/system.text.encoding.codepages.4.7.0.nupkg.sha512",
+    "/Users/hieu-imac/.nuget/packages/system.text.encoding.codepages/6.0.0/system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "/Users/hieu-imac/.nuget/packages/system.text.encoding.extensions/4.3.0/system.text.encoding.extensions.4.3.0.nupkg.sha512",
     "/Users/hieu-imac/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
     "/Users/hieu-imac/.nuget/packages/system.text.json/6.0.0/system.text.json.6.0.0.nupkg.sha512",

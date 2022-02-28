@@ -1,34 +1,42 @@
-﻿<Properties StartupConfiguration="{C246B3EA-579B-4AF7-AFE9-6A714A732118}|Template_API">
-  <MonoDevelop.Ide.ItemProperties.Translate__Cache__API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.Asset__API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+﻿<Properties StartupConfiguration="{C246B3EA-579B-4AF7-AFE9-6A714A732118}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Server/API/Utilities/MailHelper.cs" relfile="Utilities/MailHelper.cs" line="57" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Controller/DataTranslateController.cs">
+  <MonoDevelop.Ide.ItemProperties.Translate__Cache__API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controller/AssetController.cs">
     <Files>
-      <File FileName="Controller/DataTranslateController.cs" Line="146" Column="21" />
-      <File FileName="Startup.cs" Line="1" Column="1" />
-      <File FileName="appsettings.json" Line="1" Column="1" />
-      <File FileName="Database/TranslateDBContext.cs" Line="1" Column="1" />
+      <File FileName="Controller/DataTranslateController.cs" Line="104" Column="76" />
+      <File FileName="Startup.cs" Line="34" Column="49" />
+      <File FileName="appsettings.json" Line="12" Column="195" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Models/AssetDBContext.cs" Line="23" Column="48" />
+      <File FileName="Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="Models/Asset.cs" Line="20" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Asset_API" expanded="True" selected="True">
+          <Node name="Asset_API" expanded="True">
             <Node name="Asset_API" expanded="True">
               <Node name="Controller" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="wwwroot" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
+        <State>
+          <Value>int.Parse(data[8].ToString())</Value>
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Asset__API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

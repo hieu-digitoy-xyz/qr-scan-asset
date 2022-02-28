@@ -9,7 +9,6 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Template_API' " />
   <ItemGroup>
     <PackageReference Include="MailKit" Version="3.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.2" />
@@ -29,13 +28,26 @@
     <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.16.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.2" />
+    <PackageReference Include="ExcelDataReader" Version="3.6.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="6.0.0" />
+    <PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0" />
   </ItemGroup>
 
 
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="Database\" />
     <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="Utilities\" />
+    <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\files\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="ExcelDataReader" />
+    <None Remove="System.Text.Encoding.CodePages" />
+    <None Remove="ExcelDataReader.DataSet" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\" />
+    <Content Remove="wwwroot\files\" />
   </ItemGroup>
 </Project>

@@ -16,7 +16,6 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Asset_API.Models;
-using Asset_API.Database;
 
 namespace Asset_API
 {
@@ -32,7 +31,7 @@ namespace Asset_API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<TranslateDBContext>(options =>
+            services.AddDbContext<AssetDBContext>(options =>
         options.UseSqlServer(Configuration.GetConnectionString("InventoryDatabase")));
 
             services.AddControllers().AddNewtonsoftJson(options =>
@@ -86,7 +85,7 @@ namespace Asset_API
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Translate cache API Verion 1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Asset API Verion 1");
             });
 
             app.UseEndpoints(endpoints =>
