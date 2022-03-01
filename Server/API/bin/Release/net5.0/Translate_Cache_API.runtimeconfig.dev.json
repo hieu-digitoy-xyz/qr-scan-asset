@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "/Users/hieu-imac/.dotnet/store/|arch|/|tfm|",
-      "/Users/hieu-imac/.nuget/packages"
-    ]
-  }
-}

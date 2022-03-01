@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Server/API/Asset_API.csproj",
-        "projectName": "Template_API",
+        "projectName": "Asset_API",
         "projectPath": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Server/API/Asset_API.csproj",
         "packagesPath": "/Users/hieu-imac/.nuget/packages/",
         "outputPath": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Server/API/obj/",

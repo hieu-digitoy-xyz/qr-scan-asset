@@ -2766,7 +2766,9 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id bgBar
+id bgInfo
 id bgItem
+id bgMsg
 id bgQr
 id blocking
 id bottom
@@ -2926,6 +2928,7 @@ id layout
 id lbAlp
 id lbBrand
 id lbDescription
+id lbMsg
 id lbNote
 id lbPartId
 id lbSearch

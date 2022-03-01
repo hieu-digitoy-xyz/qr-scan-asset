@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class UserService {
     companion object {
-        const val BASE_URL: String = "http://13.125.214.163:7777/v1/api/"
+        const val BASE_URL: String = "http://13.125.214.163:7778/api/"
 //        const val BASE_URL: String = "http://192.168.1.11:5001/v1/api/"
     }
 
@@ -19,10 +19,6 @@ class UserService {
             .build()
 
         userApi = retrofit.create(UserApi::class.java)
-    }
-
-    suspend fun getAssets(): List<Asset> {
-        return userApi.getAssets()
     }
 
     suspend fun getAsset(id: String): Asset {

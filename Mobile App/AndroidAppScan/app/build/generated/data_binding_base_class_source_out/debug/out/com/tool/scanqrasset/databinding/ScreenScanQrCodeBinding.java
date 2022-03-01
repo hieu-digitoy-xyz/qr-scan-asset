@@ -29,6 +29,12 @@ public final class ScreenScanQrCodeBinding implements ViewBinding {
   public final ConstraintLayout bgBar;
 
   @NonNull
+  public final ConstraintLayout bgInfo;
+
+  @NonNull
+  public final ConstraintLayout bgMsg;
+
+  @NonNull
   public final ImageView btnBack;
 
   @NonNull
@@ -66,6 +72,9 @@ public final class ScreenScanQrCodeBinding implements ViewBinding {
 
   @NonNull
   public final TextView lbDescription;
+
+  @NonNull
+  public final TextView lbMsg;
 
   @NonNull
   public final TextView lbNote;
@@ -125,20 +134,23 @@ public final class ScreenScanQrCodeBinding implements ViewBinding {
   public final TextView tvUseFor;
 
   private ScreenScanQrCodeBinding(@NonNull NestedScrollView rootView,
-      @NonNull ConstraintLayout bgBar, @NonNull ImageView btnBack, @NonNull Button btnBuy,
+      @NonNull ConstraintLayout bgBar, @NonNull ConstraintLayout bgInfo,
+      @NonNull ConstraintLayout bgMsg, @NonNull ImageView btnBack, @NonNull Button btnBuy,
       @NonNull CardView btnSearch, @NonNull AppCompatCheckBox cbImport,
       @NonNull AppCompatCheckBox cbLocal, @NonNull ImageView imgCopy, @NonNull ImageView imgOpen,
       @NonNull ImageView imgPremium, @NonNull ImageView imgScan, @NonNull ImageView imgShare,
       @NonNull TextView lbAlp, @NonNull TextView lbBrand, @NonNull TextView lbDescription,
-      @NonNull TextView lbNote, @NonNull TextView lbPartId, @NonNull TextView lbSearch,
-      @NonNull TextView lbStockAmount, @NonNull TextView lbStorageBin, @NonNull TextView lbSupplier,
-      @NonNull TextView lbUseFor, @NonNull SearchView searchView, @NonNull TextView tvAlp,
-      @NonNull TextView tvBrand, @NonNull TextView tvDescription, @NonNull TextView tvNote,
-      @NonNull TextView tvPartId, @NonNull TextView tvSearch, @NonNull TextView tvStockAmount,
-      @NonNull TextView tvStorageBin, @NonNull TextView tvSupplier, @NonNull TextView tvTimeLefts,
-      @NonNull TextView tvUseFor) {
+      @NonNull TextView lbMsg, @NonNull TextView lbNote, @NonNull TextView lbPartId,
+      @NonNull TextView lbSearch, @NonNull TextView lbStockAmount, @NonNull TextView lbStorageBin,
+      @NonNull TextView lbSupplier, @NonNull TextView lbUseFor, @NonNull SearchView searchView,
+      @NonNull TextView tvAlp, @NonNull TextView tvBrand, @NonNull TextView tvDescription,
+      @NonNull TextView tvNote, @NonNull TextView tvPartId, @NonNull TextView tvSearch,
+      @NonNull TextView tvStockAmount, @NonNull TextView tvStorageBin, @NonNull TextView tvSupplier,
+      @NonNull TextView tvTimeLefts, @NonNull TextView tvUseFor) {
     this.rootView = rootView;
     this.bgBar = bgBar;
+    this.bgInfo = bgInfo;
+    this.bgMsg = bgMsg;
     this.btnBack = btnBack;
     this.btnBuy = btnBuy;
     this.btnSearch = btnSearch;
@@ -152,6 +164,7 @@ public final class ScreenScanQrCodeBinding implements ViewBinding {
     this.lbAlp = lbAlp;
     this.lbBrand = lbBrand;
     this.lbDescription = lbDescription;
+    this.lbMsg = lbMsg;
     this.lbNote = lbNote;
     this.lbPartId = lbPartId;
     this.lbSearch = lbSearch;
@@ -203,6 +216,18 @@ public final class ScreenScanQrCodeBinding implements ViewBinding {
       id = R.id.bgBar;
       ConstraintLayout bgBar = ViewBindings.findChildViewById(rootView, id);
       if (bgBar == null) {
+        break missingId;
+      }
+
+      id = R.id.bgInfo;
+      ConstraintLayout bgInfo = ViewBindings.findChildViewById(rootView, id);
+      if (bgInfo == null) {
+        break missingId;
+      }
+
+      id = R.id.bgMsg;
+      ConstraintLayout bgMsg = ViewBindings.findChildViewById(rootView, id);
+      if (bgMsg == null) {
         break missingId;
       }
 
@@ -281,6 +306,12 @@ public final class ScreenScanQrCodeBinding implements ViewBinding {
       id = R.id.lbDescription;
       TextView lbDescription = ViewBindings.findChildViewById(rootView, id);
       if (lbDescription == null) {
+        break missingId;
+      }
+
+      id = R.id.lbMsg;
+      TextView lbMsg = ViewBindings.findChildViewById(rootView, id);
+      if (lbMsg == null) {
         break missingId;
       }
 
@@ -398,11 +429,11 @@ public final class ScreenScanQrCodeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ScreenScanQrCodeBinding((NestedScrollView) rootView, bgBar, btnBack, btnBuy,
-          btnSearch, cbImport, cbLocal, imgCopy, imgOpen, imgPremium, imgScan, imgShare, lbAlp,
-          lbBrand, lbDescription, lbNote, lbPartId, lbSearch, lbStockAmount, lbStorageBin,
-          lbSupplier, lbUseFor, searchView, tvAlp, tvBrand, tvDescription, tvNote, tvPartId,
-          tvSearch, tvStockAmount, tvStorageBin, tvSupplier, tvTimeLefts, tvUseFor);
+      return new ScreenScanQrCodeBinding((NestedScrollView) rootView, bgBar, bgInfo, bgMsg, btnBack,
+          btnBuy, btnSearch, cbImport, cbLocal, imgCopy, imgOpen, imgPremium, imgScan, imgShare,
+          lbAlp, lbBrand, lbDescription, lbMsg, lbNote, lbPartId, lbSearch, lbStockAmount,
+          lbStorageBin, lbSupplier, lbUseFor, searchView, tvAlp, tvBrand, tvDescription, tvNote,
+          tvPartId, tvSearch, tvStockAmount, tvStorageBin, tvSupplier, tvTimeLefts, tvUseFor);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

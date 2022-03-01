@@ -17,31 +17,22 @@ class FetchApiHelper {
             return Holder.INSTANCE
         }
 
-        private val fetchJob = Job()
+        private val fetchJob = SupervisorJob()
         private val userService: UserService = UserService()
 
-        val errorHandler = CoroutineExceptionHandler { _, throwable ->
-            Toast.makeText(
-                MainApplication.getInstance().applicationContext,
-                throwable.message,
-                Toast.LENGTH_SHORT
-            )
-                .show()
-        }
+//        val errorHandler = CoroutineExceptionHandler { _, throwable ->
+//            Toast.makeText(
+//                MainApplication.getInstance().applicationContext,
+//                throwable.message,
+//                Toast.LENGTH_SHORT
+//            )
+//                .show()
+//        }
 
         val scope = CoroutineScope(fetchJob + Dispatchers.Main)
     }
 
-    fun fetchAssetsApi(fetchApiAction: FetchApiAction) {
-        scope.launch(errorHandler) {
-            val assets = userService.getAssets()
-
-            // do something
-            fetchApiAction.doAction(assets)
-        }
-    }
-
-    fun fetchAssetsApi(id: String, fetchApiAction: FetchApiAction) {
+    fun fetchAssetsApi(id: String, fetchApiAction: FetchApiAction, errorHandler:CoroutineExceptionHandler) {
         scope.launch(errorHandler) {
             val asset = userService.getAsset(id)
 

@@ -91,6 +91,10 @@ uses-permission#android.permission.CAMERA
 ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:4:5-65
 	android:name
 		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:4:22-62
+uses-permission#android.permission.INTERNET
+ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#com.android.vending.BILLING
 ADDED from /Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:6:5-67
 MERGED from [com.android.billingclient:billing:4.1.0] /Users/hieu-imac/.gradle/caches/transforms-3/a4aecba026d55e443a4849620b1b9049/transformed/jetified-billing-4.1.0/AndroidManifest.xml:10:5-67
