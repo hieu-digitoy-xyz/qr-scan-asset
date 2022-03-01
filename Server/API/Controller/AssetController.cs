@@ -44,7 +44,7 @@ namespace Asset_API.Controller
 
         [HttpPost]
 
-        public void ImportData(IFormFile file, [FromServices] IHostingEnvironment hostingEnvironment)
+        public IActionResult ImportData(IFormFile file)
         {
             //string fileName = $"{hostingEnvironment.WebRootPath}\\files\\{file.FileName}";
             var fileName = $"{Directory.GetCurrentDirectory()}{@"\wwwroot\files"}" + "\\" + file.FileName;
@@ -55,10 +55,31 @@ namespace Asset_API.Controller
             fileStream.Close();
 
             var assets = this.GetAssetList(file.FileName);
-            //return Ok("ok");
+
+            var number = 0;
+
+            foreach (var asset in assets)
+            {
+                try
+                {
+                    var item = _context.Assets.Where(x => x.PartId == asset.PartId).FirstOrDefault();
+                    if (item == null)
+                    {
+                        _context.Assets.Add(asset);
+                        _context.SaveChanges();
+                        number++;
+                    }
+                }
+                catch (Exception ex)
+                {
+
+                }
+            }
+
+            return Ok("Import success: " + number + " records");
         }
 
-        private IActionResult GetAssetList(string fName)
+        private List<Asset> GetAssetList(string fName)
         {
             var assets = new List<Asset>();
             var fileName = $"{Directory.GetCurrentDirectory()}{@"\wwwroot\files"}" + "\\" + fName;
@@ -87,35 +108,52 @@ namespace Asset_API.Controller
             //    allRowsList.Add(rowDataList); //adding the above list of each row to another list
             //}
 
+            //var tmp = new List<string>();
+
             foreach (var item in dataTable.Rows)
             {
                 DataRow data = (DataRow)item;
                 //try {
-                    assets.Add(new Asset()
-                    {
-                        PartId = data[0] == null ? null : data[0].ToString(),
-                        Description = data[1] == null ? null : data[1].ToString(),
-                        UseFor = reader.GetValue(2) == null ? null : reader.GetValue(2).ToString(),
-                        StorageBin = reader.GetValue(3) == null ? null : reader.GetValue(3).ToString(),
-                        //StorageBin = data[8] == null ? null : data[8].ToString(),
-                        StockAmount = data[8] == null ? 0 : int.Parse(data[8].ToString()),
-                        Search = reader.GetValue(16) == null ? null : reader.GetValue(16).ToString(),
-                        Brand = reader.GetValue(17) == null ? null : reader.GetValue(17).ToString(),
-                        Local = reader.GetValue(18) == null ? false : true,
-                        Import = reader.GetValue(19) == null ? false : true,
-                        Note = reader.GetValue(20) == null ? null : reader.GetValue(20).ToString(),
-                        AlpSop = reader.GetValue(21) == null ? null : reader.GetValue(21).ToString(),
-                        Category = reader.GetValue(22) == null ? null : reader.GetValue(22).ToString(),
-                        //Supplier = reader.GetValue(32) == null ? null : reader.GetValue(32).ToString()
-                    });
+                assets.Add(new Asset()
+                {
+                    PartId = data[0] == DBNull.Value ? "" : data[0].ToString(),
+                    Description = data[1] == DBNull.Value ? "" : data[1].ToString(),
+                    UseFor = data[2] == DBNull.Value ? "" : data[2].ToString(),
+                    StorageBin = data[4] == DBNull.Value ? "" : data[4].ToString(),
+                    //StorageBin = data[8] == null ? null : data[8].ToString(),
+                    StockAmount = data[7] == DBNull.Value ? 0 : double.Parse(data[7].ToString()),
+                    Search = data[15] == DBNull.Value ? "" : data[15].ToString(),
+                    Brand = data[16] == DBNull.Value ? "" : data[16].ToString(),
+                    Local = data[17] == DBNull.Value ? false : true,
+                    Import = data[18] == DBNull.Value ? false : true,
+                    Note = data[19] == DBNull.Value ? "" : data[19].ToString(),
+                    AlpSop = data[20] == DBNull.Value ? "" : data[20].ToString(),
+                    Category = data[21] == DBNull.Value ? "" : data[21].ToString(),
+                    Supplier = data[31] == DBNull.Value ? "" : data[31].ToString()
+                });
+                //tmp.Add(data[8].ToString());
                 //} catch(Exception e)
                 //{
                 //    return BadRequest(data);
                 //}
-                
+
             }
-           
-            return Ok(assets);
+
+            return assets;
+        }
+
+        [HttpPut]
+        public IActionResult UpdateAsset(Asset asset)
+        {
+            var item = _context.Assets.Where(x => x.PartId == asset.PartId).FirstOrDefault();
+            if (item != null)
+            {
+
+                return Ok();
+            } else
+            {
+                return BadRequest("Wrong ID");
+            }
         }
     }
 }

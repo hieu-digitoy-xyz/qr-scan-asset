@@ -9,7 +9,7 @@ namespace Asset_API.Models
         public string Description { get; set; }
         public string UseFor { get; set; }
         public string StorageBin { get; set; }
-        public int? StockAmount { get; set; }
+        public double? StockAmount { get; set; }
         public string Search { get; set; }
         public string Brand { get; set; }
         public bool? Local { get; set; }

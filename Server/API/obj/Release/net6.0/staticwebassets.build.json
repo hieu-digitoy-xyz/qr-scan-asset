@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "BjFuOCigHprwx9QzHdhXyYQs76DRu3eq5zq09dHiS7g=",
+  "Source": "Template_API",
+  "BasePath": "_content/Template_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Template_API/wwwroot",
+      "Source": "Template_API",
+      "ContentRoot": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Server/API/wwwroot/",
+      "BasePath": "_content/Template_API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Server/API/wwwroot/.DS_Store",
+      "SourceId": "Template_API",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Server/API/wwwroot/",
+      "BasePath": "_content/Template_API",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
+    }
+  ]
+}
