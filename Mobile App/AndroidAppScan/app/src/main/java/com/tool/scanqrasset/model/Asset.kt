@@ -14,7 +14,7 @@ data class Asset(
     @SerializedName("local") val local: Boolean,
     @SerializedName("import") val import: Boolean,
     @SerializedName("note") val note: String,
-    @SerializedName("alp") val alp: String,
+    @SerializedName("alpSop") val alp: String,
     @SerializedName("note2") val note2: String,
     @SerializedName("supplier") val supplier: String,
 ) : Serializable

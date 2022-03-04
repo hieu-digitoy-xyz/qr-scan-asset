@@ -1,10 +1,12 @@
 package com.tool.scanqrasset.ui
 
 import android.annotation.SuppressLint
+import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.view.View
+import android.view.inputmethod.InputMethodManager
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
@@ -235,6 +237,12 @@ class ScanQRcodeActivity : AppCompatActivity(), FetchApiAction {
     }
 
     override fun doAction(value: Any) {
+        // Only runs if there is a view that is currently focused
+        this.currentFocus?.let { view ->
+            val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as? InputMethodManager
+            imm?.hideSoftInputFromWindow(view.windowToken, 0)
+        }
+
         val asset  = value as Asset
 
         binding!!.bgInfo.visibility = View.VISIBLE

@@ -42,7 +42,39 @@ namespace Asset_API.Controller
         }
 
 
-        [HttpPost]
+        [HttpPost("import")]
+        public IActionResult ImportData(List<Asset> assets)
+        {
+            var number = 0;
+
+            foreach (var asset in assets)
+            {
+                try
+                {
+                    var item = _context.Assets.Where(x => x.PartId == asset.PartId).FirstOrDefault();
+                    if (item == null)
+                    {
+                        _context.Assets.Add(asset);
+                        _context.SaveChanges();
+                        number++;
+
+                        Console.WriteLine("Add success: Asset ID : " + asset.PartId);
+                    }
+                    else
+                    {
+                        Console.WriteLine("Asset has already ID : " + asset.PartId);
+                    }
+                }
+                catch (Exception ex)
+                {
+
+                }
+            }
+
+            return Ok("Import success: " + number + " records");
+        }
+
+        [HttpPost("file")]
 
         public IActionResult ImportData(IFormFile file)
         {
@@ -68,6 +100,11 @@ namespace Asset_API.Controller
                         _context.Assets.Add(asset);
                         _context.SaveChanges();
                         number++;
+
+                        Console.WriteLine("Add success: Asset ID : " + asset.PartId);
+                    } else
+                    {
+                        Console.WriteLine("Asset has already ID : " + asset.PartId);
                     }
                 }
                 catch (Exception ex)

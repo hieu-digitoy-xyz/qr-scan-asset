@@ -1,13 +1,6 @@
 ﻿<Properties StartupConfiguration="{C246B3EA-579B-4AF7-AFE9-6A714A732118}|Default">
-  <MonoDevelop.Ide.ItemProperties.Asset__API PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Server/API/Utilities/MailHelper.cs" relfile="Utilities/MailHelper.cs" line="57" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Translate__Cache__API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Controller/AssetController.cs">
     <Files>
       <File FileName="appsettings.json" Line="12" Column="195" />
@@ -15,13 +8,13 @@
       <File FileName="Models/AssetDBContext.cs" Line="23" Column="46" />
       <File FileName="Properties/launchSettings.json" Line="1" Column="1" />
       <File FileName="Models/Asset.cs" Line="20" Column="25" />
-      <File FileName="Controller/AssetController.cs" Line="151" Column="1" />
+      <File FileName="Controller/AssetController.cs" Line="77" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Asset_API" expanded="True">
-            <Node name="Asset_API" expanded="True" selected="True">
+            <Node name="Asset_API" expanded="True">
               <Node name="Controller" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
@@ -37,5 +30,12 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Translate__Cache__API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Asset__API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Server/API/Utilities/MailHelper.cs" relfile="Utilities/MailHelper.cs" line="57" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
 </Properties>
