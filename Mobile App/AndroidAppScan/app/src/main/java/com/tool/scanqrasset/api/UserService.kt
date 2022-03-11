@@ -24,4 +24,7 @@ class UserService {
     suspend fun getAsset(id: String): Asset {
         return userApi.getAsset(id)
     }
+    suspend fun getAssets(name: String): List<Asset> {
+        return userApi.getAssets(name)
+    }
 }

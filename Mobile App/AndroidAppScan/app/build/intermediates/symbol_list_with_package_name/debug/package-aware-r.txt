@@ -2778,6 +2778,8 @@ id bounceEnd
 id bounceStart
 id btnBack
 id btnBuy
+id btnById
+id btnByName
 id btnCancel
 id btnScan
 id btnSearch
@@ -3062,6 +3064,7 @@ id right_side
 id rounded
 id row_index_key
 id rtl
+id rv
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3302,8 +3305,11 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_choose_option
 layout activity_first
+layout activity_search_asset_by_name
 layout activity_subs
+layout adapter_asset_item_view
 layout barcode_capture
 layout custom_dialog
 layout design_bottom_navigation_item

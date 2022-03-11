@@ -92,6 +92,10 @@
         "source": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/res/drawable/ic_baseline_content_copy.xml"
     },
     {
+        "merged": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/build/intermediates/merged_res/debug/layout_adapter_asset_item_view.xml.flat",
+        "source": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/res/layout/adapter_asset_item_view.xml"
+    },
+    {
         "merged": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/build/intermediates/merged_res/debug/drawable_qrcode.png.flat",
         "source": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/res/drawable/qrcode.png"
     },
@@ -176,12 +180,20 @@
         "source": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/res/drawable/ic_premium.png"
     },
     {
+        "merged": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/build/intermediates/merged_res/debug/layout_activity_choose_option.xml.flat",
+        "source": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/res/layout/activity_choose_option.xml"
+    },
+    {
         "merged": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/build/intermediates/merged_res/debug/drawable_ic_menu_send.xml.flat",
         "source": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/res/drawable/ic_menu_send.xml"
     },
     {
         "merged": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
         "source": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/build/intermediates/merged_res/debug/layout_activity_search_asset_by_name.xml.flat",
+        "source": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/res/layout/activity_search_asset_by_name.xml"
     },
     {
         "merged": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/build/intermediates/merged_res/debug/drawable_qr_code_scanner.xml.flat",

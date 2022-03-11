@@ -13,10 +13,13 @@
         <entry key="app/src/main/res/drawable/qr_code_reader_square.xml" value="0.1705" />
         <entry key="app/src/main/res/drawable/qr_code_reader_square_main.xml" value="0.1705" />
         <entry key="app/src/main/res/drawable/textview_border.xml" value="0.1705" />
+        <entry key="app/src/main/res/layout/activity_choose_option.xml" value="0.2109375" />
         <entry key="app/src/main/res/layout/activity_first.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_search_asset_by_name.xml" value="0.3296875" />
         <entry key="app/src/main/res/layout/activity_subs.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/adapter_asset_item_view.xml" value="0.25" />
         <entry key="app/src/main/res/layout/barcode_capture.xml" value="0.19610507246376813" />
-        <entry key="app/src/main/res/layout/screen_scan_qr_code.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/screen_scan_qr_code.xml" value="0.22" />
         <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.114" />
         <entry key="app/src/main/res/xml/network_security_config.xml" value="0.3296875" />
       </map>

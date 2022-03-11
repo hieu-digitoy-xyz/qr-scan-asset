@@ -41,6 +41,22 @@ namespace Asset_API.Controller
             }
         }
 
+        [HttpGet("name")]
+        [AllowAnonymous]
+        [Produces("application/json")]
+        public IActionResult GetAssets(string name)
+        {
+            var assets = _context.Assets.Where(x => x.Description.ToLower().Contains(name.ToLower())).ToList();
+            if (assets != null)
+            {
+                return Ok(assets);
+            }
+            else
+            {
+                return BadRequest("Wrong ID");
+            }
+        }
+
 
         [HttpPost("import")]
         public IActionResult ImportData(List<Asset> assets)

@@ -41,5 +41,12 @@ class FetchApiHelper {
         }
     }
 
+    fun fetchAssetsByNameApi(name: String, fetchApiAction: FetchApiAction, errorHandler:CoroutineExceptionHandler) {
+        scope.launch(errorHandler) {
+            val assets = userService.getAssets(name)
 
+            // do something
+            fetchApiAction.doAction(assets)
+        }
+    }
 }

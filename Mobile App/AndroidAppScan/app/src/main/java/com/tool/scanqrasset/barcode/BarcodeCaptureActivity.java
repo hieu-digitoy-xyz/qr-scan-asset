@@ -38,7 +38,7 @@ import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.tool.scanqrasset.ui.ScanQRcodeActivity;
+import com.tool.scanqrasset.ui.ScanQrCodeActivity;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 import com.google.android.gms.vision.MultiProcessor;
@@ -107,7 +107,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity
     @Override
     public void onDetectedQrCode(Barcode barcode) {
         if (barcode != null) {
-            Intent intent = new Intent(this, ScanQRcodeActivity.class);
+            Intent intent = new Intent(this, ScanQrCodeActivity.class);
             intent.putExtra(BarcodeObject, barcode);
 //            setResult(CommonStatusCodes.SUCCESS, intent);
             startActivity(intent);

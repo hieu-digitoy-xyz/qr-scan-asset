@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/adapter_asset_item_view.xml",
+        "source": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/res/layout/adapter_asset_item_view.xml"
+    },
+    {
+        "merged": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_choose_option.xml",
+        "source": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/res/layout/activity_choose_option.xml"
+    },
+    {
         "merged": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_first.xml",
         "source": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/res/layout/activity_first.xml"
     },
@@ -10,6 +18,10 @@
     {
         "merged": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_subs.xml",
         "source": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/res/layout/activity_subs.xml"
+    },
+    {
+        "merged": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_search_asset_by_name.xml",
+        "source": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/res/layout/activity_search_asset_by_name.xml"
     },
     {
         "merged": "/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/screen_scan_qr_code.xml",

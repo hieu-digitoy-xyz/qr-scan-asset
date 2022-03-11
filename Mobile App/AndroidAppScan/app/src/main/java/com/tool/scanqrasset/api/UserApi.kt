@@ -9,4 +9,6 @@ interface UserApi {
     @GET("Asset")
     suspend fun getAsset(@Query("id") id: String): Asset
 
+    @GET("Asset/name")
+    suspend fun getAssets(@Query("name") name: String): List<Asset>
 }
