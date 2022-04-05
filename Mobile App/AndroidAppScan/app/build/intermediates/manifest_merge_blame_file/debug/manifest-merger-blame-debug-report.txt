@@ -47,123 +47,122 @@
 28-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:18:9-54
 29        android:supportsRtl="true"
 29-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:19:9-35
-30        android:testOnly="true"
-31        android:theme="@style/AppTheme.NoActionBar" >
-31-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:20:9-52
-32        <activity
-32-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:21:9-29:20
-33            android:name="com.tool.scanqrasset.ui.ChooseOptionActivity"
-33-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:22:13-52
-34            android:exported="true" >
-34-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:23:13-36
-35            <intent-filter>
-35-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:24:13-28:29
-36                <action android:name="android.intent.action.MAIN" />
-36-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:25:17-69
-36-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:25:25-66
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:27:17-77
-38-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:27:27-74
-39            </intent-filter>
-40        </activity>
-41        <activity
-41-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:30:9-34:20
-42            android:name="com.tool.scanqrasset.ui.SearchAssetByNameActivity"
-42-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:31:13-57
-43            android:exported="false" >
-43-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:32:13-37
-44        </activity>
-45        <activity
-45-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:35:9-37:39
-46            android:name="com.tool.scanqrasset.ui.FirstActivity"
-46-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:36:13-45
-47            android:exported="true" />
-47-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:37:13-36
-48        <activity
-48-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:38:9-40:40
-49            android:name="com.tool.scanqrasset.ui.SubsActivity"
-49-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:39:13-44
-50            android:exported="false" />
-50-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:40:13-37
-51        <activity
-51-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:41:9-45:20
-52            android:name="com.tool.scanqrasset.ui.ScanQrCodeActivity"
-52-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:42:13-50
-53            android:exported="false" >
-53-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:43:13-37
-54        </activity>
-55        <activity android:name="com.tool.scanqrasset.barcode.BarcodeCaptureActivity" />
-55-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:46:9-88
-55-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:46:19-85
-56
-57        <uses-library
-57-->[androidx.window:window:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/d647d90ead6f0c2cc3c5806a0fc0877b/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
-58            android:name="androidx.window.extensions"
-58-->[androidx.window:window:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/d647d90ead6f0c2cc3c5806a0fc0877b/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
-59            android:required="false" />
-59-->[androidx.window:window:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/d647d90ead6f0c2cc3c5806a0fc0877b/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
-60        <uses-library
-60-->[androidx.window:window:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/d647d90ead6f0c2cc3c5806a0fc0877b/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
-61            android:name="androidx.window.sidecar"
-61-->[androidx.window:window:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/d647d90ead6f0c2cc3c5806a0fc0877b/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
-62            android:required="false" />
-62-->[androidx.window:window:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/d647d90ead6f0c2cc3c5806a0fc0877b/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
-63
-64        <meta-data
-64-->[com.android.billingclient:billing:4.1.0] /Users/hieu-imac/.gradle/caches/transforms-3/a4aecba026d55e443a4849620b1b9049/transformed/jetified-billing-4.1.0/AndroidManifest.xml:13:9-15:37
-65            android:name="com.google.android.play.billingclient.version"
-65-->[com.android.billingclient:billing:4.1.0] /Users/hieu-imac/.gradle/caches/transforms-3/a4aecba026d55e443a4849620b1b9049/transformed/jetified-billing-4.1.0/AndroidManifest.xml:14:13-73
-66            android:value="4.1.0" />
-66-->[com.android.billingclient:billing:4.1.0] /Users/hieu-imac/.gradle/caches/transforms-3/a4aecba026d55e443a4849620b1b9049/transformed/jetified-billing-4.1.0/AndroidManifest.xml:15:13-34
-67
-68        <activity
-68-->[com.android.billingclient:billing:4.1.0] /Users/hieu-imac/.gradle/caches/transforms-3/a4aecba026d55e443a4849620b1b9049/transformed/jetified-billing-4.1.0/AndroidManifest.xml:17:9-21:75
-69            android:name="com.android.billingclient.api.ProxyBillingActivity"
-69-->[com.android.billingclient:billing:4.1.0] /Users/hieu-imac/.gradle/caches/transforms-3/a4aecba026d55e443a4849620b1b9049/transformed/jetified-billing-4.1.0/AndroidManifest.xml:18:13-78
-70            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
-70-->[com.android.billingclient:billing:4.1.0] /Users/hieu-imac/.gradle/caches/transforms-3/a4aecba026d55e443a4849620b1b9049/transformed/jetified-billing-4.1.0/AndroidManifest.xml:19:13-96
-71            android:exported="false"
-71-->[com.android.billingclient:billing:4.1.0] /Users/hieu-imac/.gradle/caches/transforms-3/a4aecba026d55e443a4849620b1b9049/transformed/jetified-billing-4.1.0/AndroidManifest.xml:20:13-37
-72            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-72-->[com.android.billingclient:billing:4.1.0] /Users/hieu-imac/.gradle/caches/transforms-3/a4aecba026d55e443a4849620b1b9049/transformed/jetified-billing-4.1.0/AndroidManifest.xml:21:13-72
-73        <activity
-73-->[com.google.android.gms:play-services-base:17.4.0] /Users/hieu-imac/.gradle/caches/transforms-3/7f4eb1a2de64ba4f672cb2cc7ab2fc68/transformed/jetified-play-services-base-17.4.0/AndroidManifest.xml:23:9-26:75
-74            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-74-->[com.google.android.gms:play-services-base:17.4.0] /Users/hieu-imac/.gradle/caches/transforms-3/7f4eb1a2de64ba4f672cb2cc7ab2fc68/transformed/jetified-play-services-base-17.4.0/AndroidManifest.xml:24:13-79
-75            android:exported="false"
-75-->[com.google.android.gms:play-services-base:17.4.0] /Users/hieu-imac/.gradle/caches/transforms-3/7f4eb1a2de64ba4f672cb2cc7ab2fc68/transformed/jetified-play-services-base-17.4.0/AndroidManifest.xml:25:13-37
-76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-76-->[com.google.android.gms:play-services-base:17.4.0] /Users/hieu-imac/.gradle/caches/transforms-3/7f4eb1a2de64ba4f672cb2cc7ab2fc68/transformed/jetified-play-services-base-17.4.0/AndroidManifest.xml:26:13-72
-77
-78        <meta-data
-78-->[com.google.android.gms:play-services-basement:17.4.0] /Users/hieu-imac/.gradle/caches/transforms-3/c7a50edaf346f3ed4a8dc0653fdb2965/transformed/jetified-play-services-basement-17.4.0/AndroidManifest.xml:23:9-25:69
-79            android:name="com.google.android.gms.version"
-79-->[com.google.android.gms:play-services-basement:17.4.0] /Users/hieu-imac/.gradle/caches/transforms-3/c7a50edaf346f3ed4a8dc0653fdb2965/transformed/jetified-play-services-basement-17.4.0/AndroidManifest.xml:24:13-58
-80            android:value="@integer/google_play_services_version" />
-80-->[com.google.android.gms:play-services-basement:17.4.0] /Users/hieu-imac/.gradle/caches/transforms-3/c7a50edaf346f3ed4a8dc0653fdb2965/transformed/jetified-play-services-basement-17.4.0/AndroidManifest.xml:25:13-66
-81
-82        <provider
-82-->[androidx.emoji2:emoji2:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/0c8abedc63cc5d3924e8df9a2f731194/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-83            android:name="androidx.startup.InitializationProvider"
-83-->[androidx.emoji2:emoji2:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/0c8abedc63cc5d3924e8df9a2f731194/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
-84            android:authorities="com.tool.scanqrasset.androidx-startup"
-84-->[androidx.emoji2:emoji2:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/0c8abedc63cc5d3924e8df9a2f731194/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
-85            android:exported="false" >
-85-->[androidx.emoji2:emoji2:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/0c8abedc63cc5d3924e8df9a2f731194/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
-86            <meta-data
-86-->[androidx.emoji2:emoji2:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/0c8abedc63cc5d3924e8df9a2f731194/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-87                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-87-->[androidx.emoji2:emoji2:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/0c8abedc63cc5d3924e8df9a2f731194/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
-88                android:value="androidx.startup" />
-88-->[androidx.emoji2:emoji2:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/0c8abedc63cc5d3924e8df9a2f731194/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
-89            <meta-data
-89-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hieu-imac/.gradle/caches/transforms-3/1828ade79b31b563ed50f4e89b4403e1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-90                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-90-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hieu-imac/.gradle/caches/transforms-3/1828ade79b31b563ed50f4e89b4403e1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-91                android:value="androidx.startup" />
-91-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hieu-imac/.gradle/caches/transforms-3/1828ade79b31b563ed50f4e89b4403e1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-92        </provider>
-93    </application>
-94
-95</manifest>
+30        android:theme="@style/AppTheme.NoActionBar" >
+30-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:20:9-52
+31        <activity
+31-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:21:9-29:20
+32            android:name="com.tool.scanqrasset.ui.ChooseOptionActivity"
+32-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:22:13-52
+33            android:exported="true" >
+33-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:23:13-36
+34            <intent-filter>
+34-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:24:13-28:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:25:17-69
+35-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:25:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:27:17-77
+37-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:27:27-74
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:30:9-34:20
+41            android:name="com.tool.scanqrasset.ui.SearchAssetByNameActivity"
+41-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:31:13-57
+42            android:exported="false" >
+42-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:32:13-37
+43        </activity>
+44        <activity
+44-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:35:9-37:39
+45            android:name="com.tool.scanqrasset.ui.FirstActivity"
+45-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:36:13-45
+46            android:exported="true" />
+46-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:37:13-36
+47        <activity
+47-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:38:9-40:40
+48            android:name="com.tool.scanqrasset.ui.SubsActivity"
+48-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:39:13-44
+49            android:exported="false" />
+49-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:40:13-37
+50        <activity
+50-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:41:9-45:20
+51            android:name="com.tool.scanqrasset.ui.ScanQrCodeActivity"
+51-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:42:13-50
+52            android:exported="false" >
+52-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:43:13-37
+53        </activity>
+54        <activity android:name="com.tool.scanqrasset.barcode.BarcodeCaptureActivity" />
+54-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:46:9-88
+54-->/Users/hieu-imac/Desktop/Project Android/qr-scan-asset/Mobile App/AndroidAppScan/app/src/main/AndroidManifest.xml:46:19-85
+55
+56        <uses-library
+56-->[androidx.window:window:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/d647d90ead6f0c2cc3c5806a0fc0877b/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+57            android:name="androidx.window.extensions"
+57-->[androidx.window:window:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/d647d90ead6f0c2cc3c5806a0fc0877b/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+58            android:required="false" />
+58-->[androidx.window:window:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/d647d90ead6f0c2cc3c5806a0fc0877b/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+59        <uses-library
+59-->[androidx.window:window:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/d647d90ead6f0c2cc3c5806a0fc0877b/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+60            android:name="androidx.window.sidecar"
+60-->[androidx.window:window:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/d647d90ead6f0c2cc3c5806a0fc0877b/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+61            android:required="false" />
+61-->[androidx.window:window:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/d647d90ead6f0c2cc3c5806a0fc0877b/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+62
+63        <meta-data
+63-->[com.android.billingclient:billing:4.1.0] /Users/hieu-imac/.gradle/caches/transforms-3/a4aecba026d55e443a4849620b1b9049/transformed/jetified-billing-4.1.0/AndroidManifest.xml:13:9-15:37
+64            android:name="com.google.android.play.billingclient.version"
+64-->[com.android.billingclient:billing:4.1.0] /Users/hieu-imac/.gradle/caches/transforms-3/a4aecba026d55e443a4849620b1b9049/transformed/jetified-billing-4.1.0/AndroidManifest.xml:14:13-73
+65            android:value="4.1.0" />
+65-->[com.android.billingclient:billing:4.1.0] /Users/hieu-imac/.gradle/caches/transforms-3/a4aecba026d55e443a4849620b1b9049/transformed/jetified-billing-4.1.0/AndroidManifest.xml:15:13-34
+66
+67        <activity
+67-->[com.android.billingclient:billing:4.1.0] /Users/hieu-imac/.gradle/caches/transforms-3/a4aecba026d55e443a4849620b1b9049/transformed/jetified-billing-4.1.0/AndroidManifest.xml:17:9-21:75
+68            android:name="com.android.billingclient.api.ProxyBillingActivity"
+68-->[com.android.billingclient:billing:4.1.0] /Users/hieu-imac/.gradle/caches/transforms-3/a4aecba026d55e443a4849620b1b9049/transformed/jetified-billing-4.1.0/AndroidManifest.xml:18:13-78
+69            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+69-->[com.android.billingclient:billing:4.1.0] /Users/hieu-imac/.gradle/caches/transforms-3/a4aecba026d55e443a4849620b1b9049/transformed/jetified-billing-4.1.0/AndroidManifest.xml:19:13-96
+70            android:exported="false"
+70-->[com.android.billingclient:billing:4.1.0] /Users/hieu-imac/.gradle/caches/transforms-3/a4aecba026d55e443a4849620b1b9049/transformed/jetified-billing-4.1.0/AndroidManifest.xml:20:13-37
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.android.billingclient:billing:4.1.0] /Users/hieu-imac/.gradle/caches/transforms-3/a4aecba026d55e443a4849620b1b9049/transformed/jetified-billing-4.1.0/AndroidManifest.xml:21:13-72
+72        <activity
+72-->[com.google.android.gms:play-services-base:17.4.0] /Users/hieu-imac/.gradle/caches/transforms-3/7f4eb1a2de64ba4f672cb2cc7ab2fc68/transformed/jetified-play-services-base-17.4.0/AndroidManifest.xml:23:9-26:75
+73            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+73-->[com.google.android.gms:play-services-base:17.4.0] /Users/hieu-imac/.gradle/caches/transforms-3/7f4eb1a2de64ba4f672cb2cc7ab2fc68/transformed/jetified-play-services-base-17.4.0/AndroidManifest.xml:24:13-79
+74            android:exported="false"
+74-->[com.google.android.gms:play-services-base:17.4.0] /Users/hieu-imac/.gradle/caches/transforms-3/7f4eb1a2de64ba4f672cb2cc7ab2fc68/transformed/jetified-play-services-base-17.4.0/AndroidManifest.xml:25:13-37
+75            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+75-->[com.google.android.gms:play-services-base:17.4.0] /Users/hieu-imac/.gradle/caches/transforms-3/7f4eb1a2de64ba4f672cb2cc7ab2fc68/transformed/jetified-play-services-base-17.4.0/AndroidManifest.xml:26:13-72
+76
+77        <meta-data
+77-->[com.google.android.gms:play-services-basement:17.4.0] /Users/hieu-imac/.gradle/caches/transforms-3/c7a50edaf346f3ed4a8dc0653fdb2965/transformed/jetified-play-services-basement-17.4.0/AndroidManifest.xml:23:9-25:69
+78            android:name="com.google.android.gms.version"
+78-->[com.google.android.gms:play-services-basement:17.4.0] /Users/hieu-imac/.gradle/caches/transforms-3/c7a50edaf346f3ed4a8dc0653fdb2965/transformed/jetified-play-services-basement-17.4.0/AndroidManifest.xml:24:13-58
+79            android:value="@integer/google_play_services_version" />
+79-->[com.google.android.gms:play-services-basement:17.4.0] /Users/hieu-imac/.gradle/caches/transforms-3/c7a50edaf346f3ed4a8dc0653fdb2965/transformed/jetified-play-services-basement-17.4.0/AndroidManifest.xml:25:13-66
+80
+81        <provider
+81-->[androidx.emoji2:emoji2:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/0c8abedc63cc5d3924e8df9a2f731194/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+82            android:name="androidx.startup.InitializationProvider"
+82-->[androidx.emoji2:emoji2:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/0c8abedc63cc5d3924e8df9a2f731194/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+83            android:authorities="com.tool.scanqrasset.androidx-startup"
+83-->[androidx.emoji2:emoji2:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/0c8abedc63cc5d3924e8df9a2f731194/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+84            android:exported="false" >
+84-->[androidx.emoji2:emoji2:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/0c8abedc63cc5d3924e8df9a2f731194/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+85            <meta-data
+85-->[androidx.emoji2:emoji2:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/0c8abedc63cc5d3924e8df9a2f731194/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+86                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+86-->[androidx.emoji2:emoji2:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/0c8abedc63cc5d3924e8df9a2f731194/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+87                android:value="androidx.startup" />
+87-->[androidx.emoji2:emoji2:1.0.0] /Users/hieu-imac/.gradle/caches/transforms-3/0c8abedc63cc5d3924e8df9a2f731194/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+88            <meta-data
+88-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hieu-imac/.gradle/caches/transforms-3/1828ade79b31b563ed50f4e89b4403e1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+89                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+89-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hieu-imac/.gradle/caches/transforms-3/1828ade79b31b563ed50f4e89b4403e1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+90                android:value="androidx.startup" />
+90-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/hieu-imac/.gradle/caches/transforms-3/1828ade79b31b563ed50f4e89b4403e1/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+91        </provider>
+92    </application>
+93
+94</manifest>

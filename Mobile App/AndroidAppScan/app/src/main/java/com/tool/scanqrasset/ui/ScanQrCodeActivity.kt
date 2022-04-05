@@ -88,7 +88,7 @@ class ScanQrCodeActivity : AppCompatActivity(), FetchApiAction {
             val intent = Intent(this, BarcodeCaptureActivity::class.java)
             this@ScanQrCodeActivity.startActivityForResult(intent, BARCODE_READER_REQUEST_CODE)
         })
-        imgCopy!!.setOnClickListener(View.OnClickListener { v: View? -> copyText() })
+        imgCopy!!.setOnClickListener { copyText() }
         imgOpenLink!!.setOnClickListener(View.OnClickListener { v: View? -> openLink() })
         imgShare!!.setOnClickListener(View.OnClickListener { v: View? -> shareText() })
 
